@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Winc Academy! Film Finder</title>
+    <script defer type="text/javascript" src="movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Winc Film finder</h1>
+    </header>
+
+    <nav>
+        <ul class="nav-bar">
+            <li>
+                <input type="radio" id="all" name="film-filter" value="all" checked="checked">
+                <label for="all">All movies</label>
+            </li>
+            <li>
+                <input type="radio" id="latest" name="film-filter" value="latest">
+                <label for="latest">Latest movies, 2014 or newer</label>
+            </li>
+            <li>
+                <input type="radio" id="avengers" name="film-filter" value="avengers">
+                <label for="avengers">Avengers movies</label>
+            </li>
+            <li>
+                <input type="radio" id="xmen" name="film-filter" value="xmen">
+                <label for="xmen">X-Men movies</label>
+            </li>
+            <li>
+                <input type="radio" id="princess" name="film-filter" value="princess">
+                <label for="princess">Princess movies</label>
+            </li>
+            <li>
+                <input type="radio" id="batman" name="film-filter" value="batman">
+                <label for="batman">Batman movies</label>
+            </li>
+        </ul>
+    </nav>
+    <main id="movie-list">
+        <ul id="selectedMovies">
+        </ul>
+    </main>
+
+    <footer>
+        <h6>Winc Academy Assignment - Advanced CSS - Roland in 't Hout</h6>
+    </footer>
+
+</body>
+
+
+</html>
